@@ -1,17 +1,16 @@
 class Animals:
-    def breath(self):
+    def breathe(self):
         print("дихає")
-
     def move(self):
         print("рухається")
-
     def eat_food(self):
-        print("Їсть")
-
+        print("їсть")
 class Dogs(Animals):
     pass
 class Cats(Animals):
     pass
-#Сворення екземпляру класу
-my_dog = Dog()
-my_dog.dreath()
+#Створення екзепляру класу
+my_dog = Dogs()
+#мотоди
+my_dog.breathe()
+my_dog.move()
